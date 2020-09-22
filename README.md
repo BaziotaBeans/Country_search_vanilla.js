@@ -1,5 +1,7 @@
 # Country Search
 #### A simple implementation of  country search with vanilla.js, api rest
+## 🚀 See in Action
+[Click here to see in action](https://baziotabeans.github.io/Country_search_vanilla.js/)
 ## :computer: Technologies
 - JS
 - CSS3 and HTML5
