@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Beans">
+    <script src="https://kit.fontawesome.com/93146aa192.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Filtro</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="title">Country and Capitals</h1>
+        <div class="container-lang">
+            <h2 class="lang-mode">Language:</h2>
+            <div class="toggle-themes">
+                <input type="checkbox" class="toggle-themes-checkbox" id="chk">
+                <label for="chk" class="toggle-themes-shift">
+                    <img src="img/Flag_of_Great_Britain_(1707–1800).svg" alt="Enland Flag">
+                    <img src="img/Flag_of_Portugal.svg" alt="Portugal Flag">
+                    <div class="shift"></div>
+                </label>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="input-group">
+                <span class="icon"><i class="fas fa-search"></i></span>
+                <input type="text" placeholder="Search an country">
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>Capital</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- All content -->
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <footer>
+        <p>Make with <span>💜</span> using Vanilla.js</p>
+        <p>© 2020 Beans</p>
+        
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
