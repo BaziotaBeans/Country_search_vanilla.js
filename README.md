@@ -3,7 +3,7 @@
 ## :computer: Technologies
 - JS
 - CSS3 and HTML5
-## 📍 API [REST Countries](https://openweathermap.org/api)
+## 📍 API [REST Countries](https://restcountries.eu/)
 ```
 I used a free Rest country api
 ```
